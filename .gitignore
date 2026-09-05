@@ -1,0 +1,36 @@
+# ── Node / Frontend ──────────────────────────────────────
+node_modules/
+dist/
+.next/
+.vercel/
+.DS_Store
+
+# ── Python / Backend ─────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ── Database ─────────────────────────────────────────────
+Backend_updated/database/*.db
+
+# ── Environment secrets ───────────────────────────────────
+.env
+.env.local
+.env*.local
+
+# ── v0 / Sandbox internals ───────────────────────────────
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+
+# ── Editor ────────────────────────────────────────────────
+.vscode/settings.json
+*.suo
+*.user
