@@ -10,7 +10,7 @@ import numpy as np
 # ─────────────────────────────────────────────
 # Paths
 # ─────────────────────────────────────────────
-BASE_DIR     = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR     = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH   = os.path.join(BASE_DIR, "models", "hybrid_random_forest.pkl")
 FEATURE_PATH = os.path.join(BASE_DIR, "models", "feature_columns.pkl")
 ROC_PATH     = os.path.join(BASE_DIR, "models", "roc_curve.json")

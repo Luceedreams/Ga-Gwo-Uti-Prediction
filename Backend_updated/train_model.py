@@ -2,10 +2,10 @@
 GA-GWO Hybrid Random Forest — Model Training Script
 =====================================================
 Run this once from the Backend_updated/ folder to generate:
-  ../models/hybrid_random_forest.pkl
-  ../models/feature_columns.pkl
-  ../models/roc_curve.json
-  ../models/model_metrics.json
+    models/hybrid_random_forest.pkl
+    models/feature_columns.pkl
+    models/roc_curve.json
+    models/model_metrics.json
 
 Usage:
   cd Backend_updated
@@ -27,7 +27,7 @@ from sklearn.metrics import (
 # ─────────────────────────────────────────────
 # Paths
 # ─────────────────────────────────────────────
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODELS_DIR = os.path.join(BASE_DIR, "models")
 
 MODEL_PATH   = os.path.join(MODELS_DIR, "hybrid_random_forest.pkl")
