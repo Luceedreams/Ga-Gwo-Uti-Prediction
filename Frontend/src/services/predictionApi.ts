@@ -6,7 +6,7 @@
  * when the backend URL or structure changes.
  */
 
-const API_BASE = 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL;
 
 export interface PatientData {
   // Urinalysis Parameters
@@ -71,7 +71,7 @@ export async function predictUTI(
   let response: Response;
 
   try {
-    response = await fetch(`${API_BASE}/predict`, {
+    response = await fetch(`${API_URL}/predict`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(patientData),

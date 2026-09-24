@@ -115,9 +115,9 @@ const PredictionResult: React.FC<PredictionResultProps> = ({ result, onNewPredic
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(110px, 1fr))', gap: '0.75rem', marginBottom: '1.25rem' }}>
           {[
             { label: 'AUC Score',   value: '0.946', sub: 'Discrimination', color: '#2563eb' },
-            { label: 'Sensitivity', value: '94.2%', sub: 'True Positive',  color: '#16a34a' },
-            { label: 'Specificity', value: '87.1%', sub: 'True Negative',  color: '#ca8a04' },
-            { label: 'Precision',   value: '89.6%', sub: 'PPV',            color: '#7c3aed' },
+            { label: 'Sensitivity', value: '95.07%', sub: 'True Positive',  color: '#16a34a' },
+            { label: 'Specificity', value: '98.04%', sub: 'True Negative',  color: '#ca8a04' },
+            { label: 'Precision',   value: '96.60%', sub: 'PPV',            color: '#7c3aed' },
           ].map((m) => (
             <div key={m.label} style={{
               padding: '0.875rem',

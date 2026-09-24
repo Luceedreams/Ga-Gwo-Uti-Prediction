@@ -125,7 +125,7 @@ function App() {
               </span>
             </div>
             <div className="desktop-only-block" style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.45)', fontWeight: 600 }}>
-              AUC 0.946
+              Accuracy 0.965
             </div>
 
             {/* Mobile Hamburger Button */}
